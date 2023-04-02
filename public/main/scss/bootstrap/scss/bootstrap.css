@@ -1,0 +1,74 @@
+/*
+Error: File to import not found or unreadable: vendor/rfs.
+       Load paths:
+         D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/bourbon
+         D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/neat
+         D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/base
+        on line 6 of D:/znn/shoppyjplive/public/main/scss/bootstrap/scss/_mixins.scss
+        from line 10 of D:\znn\shoppyjplive\public\main\scss\bootstrap\scss\bootstrap.scss
+
+1: /*!
+2:  * Bootstrap v4.5.3 (https://getbootstrap.com/)
+3:  * Copyright 2011-2020 The Bootstrap Authors
+4:  * Copyright 2011-2020 Twitter, Inc.
+5:  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+6:  *\/
+7: 
+8: @import "functions";
+9: @import "variables";
+10: @import "mixins";
+11: @import "root";
+
+Backtrace:
+D:/znn/shoppyjplive/public/main/scss/bootstrap/scss/_mixins.scss:6
+D:\znn\shoppyjplive\public\main\scss\bootstrap\scss\bootstrap.scss:10
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:67:in `rescue in import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:45:in `import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:28:in `imported_file'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:37:in `css_import?'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `map'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:20:in `render'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:281:in `render'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:400:in `run'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `load'
+D:/Program files/software/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: vendor/rfs.\A        Load paths:\A          D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/bourbon\A          D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/neat\A          D:/Program files/software/Adobe Dreamweaver CC 2018/Configuration/SassFrameworks/base\A         on line 6 of D:/znn/shoppyjplive/public/main/scss/bootstrap/scss/_mixins.scss\A         from line 10 of D:\znn\shoppyjplive\public\main\scss\bootstrap\scss\bootstrap.scss\A \A 1: /*!\A 2:  * Bootstrap v4.5.3 (https://getbootstrap.com/)\A 3:  * Copyright 2011-2020 The Bootstrap Authors\A 4:  * Copyright 2011-2020 Twitter, Inc.\A 5:  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)\A 6:  */\A 7: \A 8: @import \"functions\";\A 9: @import \"variables\";\A 10: @import \"mixins\";\A 11: @import \"root\";"; }
